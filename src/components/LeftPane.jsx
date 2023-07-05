@@ -1,9 +1,13 @@
 import React from "react";
-
+import Header
+ from "./Header";
 const LeftPane = () => {
     return (
-        <div className="w-2/12 bg-gray-700">
-            
+        <div className="z-50 w-[25%] absolute top-0">
+            <Header />
+            <div>
+                
+            </div>
         </div>
     )
 };
