@@ -9,6 +9,9 @@ module.exports = {
         'blue' : '#bae6fd'
       }
     },
+    fontFamily : {
+      'nunito' : ['Nunito', 'sans-serif']
+    }
   },
   plugins: [],
 }

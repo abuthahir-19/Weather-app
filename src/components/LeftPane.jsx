@@ -13,7 +13,7 @@ const LeftPane = () => {
                 <div>
                     <div className="flex justify-evenly items-center">
                         <img className="h-5 w-5" src={ SendIcon } alt="SentIcon" />
-                        <h3 className="ml-3">New York, USA</h3>
+                        <h3 className="ml-2">New York, USA</h3>
                     </div>
                     <div>
                         <p>Today 28 Sept</p>
