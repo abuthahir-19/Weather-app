@@ -10,7 +10,7 @@ const RightPane = () => {
                     <h2 className="font-medium text-2xl">Welcome back Isabella !</h2>
                     <p className="font-normal text-lg">Check out today's weather information </p>
                 </div>
-                <div className="flex items-center justify-evenly w-[10%]">
+                <div className="flex items-center justify-evenly w-[15%]">
                     <img className="h-5 w-5 cursor-pointer" src={ optionsIcon } alt="optionsIcon" />
                     <img className="h-10 w-10 object-cover cursor-pointer rounded-lg" src={ Profile } alt="profileImg" />
                 </div>
