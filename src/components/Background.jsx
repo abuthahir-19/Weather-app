@@ -1,5 +1,5 @@
 import React from "react";
-import WeatherImg from '../images/weather-bg.jpg';
+import WeatherImg from '../images/pexels-pixabay-53459.jpg';
 import LeftPane from "./LeftPane";
 import RightPane from "./RightPane";
 
