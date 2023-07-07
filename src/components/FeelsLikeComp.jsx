@@ -21,7 +21,7 @@ const FeelsLikeComp = () => {
                         <p>{`${25}\u00b0`}</p>
                         <p>{`${50}\u00b0`}</p>
                     </div>
-                    <div className="w-[100%] bg-slate-400 rounded-full">
+                    <div className="w-[100%] bg-slate-200 rounded-full">
                         <div className=" bg-sky-500  rounded-full w-[60%] p-1"></div>
                     </div>
                 </div>

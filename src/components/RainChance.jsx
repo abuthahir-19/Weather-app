@@ -5,7 +5,7 @@ const RainChange = () => {
     return (
         <div className="p-5 bg-white w-[27%] m-5 rounded-3xl">
             <div className="flex justify-between items-center">
-                <p>Feels Like</p>
+                <p>Chance of Rain</p>
                 <div className="h-8 w-8 flex justify-center items-center bg-sky-500 rounded-xl">
                     <img src={ chanceIcon } alt="Humidity Img" />
                 </div>
@@ -23,8 +23,8 @@ const RainChange = () => {
                         <p>75%</p>
                         <p>100%</p>
                     </div>
-                    <div className="w-[100%] bg-slate-400 rounded-full">
-                        <div className=" bg-sky-500  rounded-full w-[60%] p-1"></div>
+                    <div className="w-[100%] bg-slate-200 rounded-full">
+                        <div className=" bg-sky-500  rounded-full w-[40%] p-1"></div>
                     </div>
                 </div>
             </div>
