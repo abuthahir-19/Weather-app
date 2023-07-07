@@ -7,7 +7,7 @@ const Background = () => {
     return (
         <div className="h-[100%] w-full relative">
             <img className="h-[100%] object-cover" src= { WeatherImg } alt="Weather Imag" />
-            <div className="flex ">
+            <div className="flex h-full">
                 <LeftPane />
                 <RightPane />
             </div>

@@ -11,26 +11,38 @@ const WindComp = () => {
                 </div>
             </div>
             <div className="flex justify-center items-end mt-3">
-                <h3 className="font-bold text-3xl">82%</h3>
-                <p className="ml-3 font-normal text-md">bad</p>
+                <h3 className="font-bold text-3xl">8</h3>
+                <p className="ml-3 font-normal text-md">Km/h</p>
             </div>
             <div className="flex items-center justify-around w-full mt-3">
-                <div className="w-1/4">
-                    <p className="font-normal text-gray-800">good</p>
-                    <div className="bg-slate-400 rounded-full">
+            <div className="w-1/6">
+                    <p className="font-normal text-gray-800">0</p>
+                    <div className="bg-slate-200 rounded-full">
                         <div className=" bg-sky-500  rounded-full w-full p-1"></div>
                     </div>
                 </div>
-                <div className="w-1/4">
-                    <p className="font-normal text-gray-800">good</p>
-                    <div className="bg-slate-400 rounded-full">
-                        <div className=" bg-sky-500  rounded-full w-full p-1"></div>
-                    </div>
-                </div>
-                <div className="w-1/4">
-                    <p className="font-normal text-gray-800">bad</p>
+                <div className="w-1/6">
+                    <p className="font-normal text-gray-800">5</p>
                     <div className="w-[100%] bg-slate-200 rounded-full">
-                        <div className=" bg-sky-500  rounded-full w-1/3 p-1"></div>
+                        <div className=" bg-sky-500  rounded-full w-[40%] p-1"></div>
+                    </div>
+                </div>
+                <div className="w-1/6">
+                    <p className="font-normal text-gray-800">10</p>
+                    <div className="w-[100%] bg-slate-200 rounded-full">
+                        <div className="rounded-full p-1"></div>
+                    </div>
+                </div>
+                <div className="w-1/6">
+                    <p className="font-normal text-gray-800">20</p>
+                    <div className="w-[100%] bg-slate-200 rounded-full">
+                        <div className="rounded-full p-1"></div>
+                    </div>
+                </div>
+                <div className="w-1/6">
+                    <p className="font-normal text-gray-800">30</p>
+                    <div className="w-[100%] bg-slate-200 rounded-full">
+                        <div className="rounded-full p-1"></div>
                     </div>
                 </div>
             </div>
